@@ -1,0 +1,19 @@
+.one{
+		height:200px;
+		width: 200px;
+		background-color: red;
+		border-radius: 100px 80px 60px 40px;
+		border: 5px dashed black;
+		box-shadow: 15px 20px 5px purple 
+	}
+#two{
+		height:200px;
+		width: 200px;
+		background-color: yellow
+	}
+a{
+	text-decoration: none;
+}
+body{
+	background:linear-gradient(to left, red, yellow, blue)
+}
