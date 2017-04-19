@@ -1,19 +1,46 @@
+h1{
+	color:red;
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Algerian';
+	text-shadow: 5px 5px #81EA1E;
+
+}
 .one{
 		height:200px;
 		width: 200px;
 		background-color: red;
 		border-radius: 100px 80px 60px 40px;
 		border: 5px dashed black;
-		box-shadow: 15px 20px 5px purple 
+		box-shadow: 15px 20px 5px purple; 
+		transition: width 5s;
 	}
+.one:hover{
+	width: 500px;
+}
 #two{
-		height:200px;
-		width: 200px;
-		background-color: yellow
+		height:400px;
+		width: 400px;
+		background-color: yellow;
+
 	}
+#two:hover{
+	/*transform: rotate(100deg);
+	-ms-transform:scale(2,2);
+	-webkit-transform:scale(2,2);
+	transform:skew(20deg, 10deg);
+	transform: matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())
+	*/
+	transform: matrix(1,-0.5,0,1,0,0);
+}
 a{
 	text-decoration: none;
+	font-size: 50px;
 }
-body{
+span:hover{
+	font-size: 20px;
+	color:pink;
+}
+/*body{
 	background:linear-gradient(to left, red, yellow, blue)
-}
+}*/
