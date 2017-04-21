@@ -10,7 +10,7 @@ h1{
 		height:200px;
 		width: 200px;
 		background-color: red;
-		border-radius: 100px 80px 60px 40px;
+		border-radius: 50px;
 		border: 5px dashed black;
 		box-shadow: 15px 20px 5px purple; 
 		transition: width 5s;
